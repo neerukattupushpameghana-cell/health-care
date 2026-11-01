@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f7f2;
+    color: #34433e;
+}
+
+header {
+    background-color: #587d6b;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #e4eee5;
+}
+
+.hero h2 {
+    font-size: 35px;
+    color: #587d6b;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #587d6b;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+section h2 {
+    color: #587d6b;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #0002;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #aaa;
+    padding: 12px;
+}
+
+th {
+    background-color: #587d6b;
+    color: white;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #587d6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3c5e4c;
+}
+
+footer {
+    text-align: center;
+    background-color: #344b40;
+    color: white;
+    padding: 15px;
+}
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+
+    .hero h2 {
+        font-size: 27px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
