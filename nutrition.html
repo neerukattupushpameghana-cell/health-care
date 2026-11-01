@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food and Nutrition</title>
+    <link rel="stylesheet" href="nutri.css">
+</head>
+<body>
+
+<header>
+    <h1>FreshBite 🥗</h1>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#recipes">Recipes</a>
+        <a href="#meal">Meal Plans</a>
+        <a href="#tips">Health Tips</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Eat Healthy, Live Healthy!</h2>
+    <p>Discover delicious and nutritious food recipes.</p>
+    <a href="#recipes" class="btn">Explore Recipes</a>
+</section>
+
+<section id="recipes">
+    <h2>Healthy Recipes</h2>
+
+    <div class="container">
+
+        <div class="card">
+            <h3>🥗 Vegetable Salad</h3>
+            <p>Ingredients: Cucumber, tomato, carrot and lemon.</p>
+            <p>Preparation time: 10 minutes</p>
+            <button onclick="showRecipe('salad')">
+                View Recipe
+            </button>
+            <p id="salad"></p>
+        </div>
+
+        <div class="card">
+            <h3>🥣 Oats Bowl</h3>
+            <p>Ingredients: Oats, milk, banana and nuts.</p>
+            <p>Preparation time: 10 minutes</p>
+            <button onclick="showRecipe('oats')">
+                View Recipe
+            </button>
+            <p id="oats"></p>
+        </div>
+
+        <div class="card">
+            <h3>🍲 Vegetable Soup</h3>
+            <p>Ingredients: Mixed vegetables, water and spices.</p>
+            <p>Preparation time: 20 minutes</p>
+            <button onclick="showRecipe('soup')">
+                View Recipe
+            </button>
+            <p id="soup"></p>
+        </div>
+
+    </div>
+</section>
+
+<section id="meal">
+    <h2>Daily Meal Plan Ideas</h2>
+
+    <div class="container">
+        <div class="card">
+            <h3>Breakfast</h3>
+            <p>Idli, oats or fruit with yogurt.</p>
+        </div>
+
+        <div class="card">
+            <h3>Lunch</h3>
+            <p>Rice, dal, vegetables and curd.</p>
+        </div>
+
+        <div class="card">
+            <h3>Dinner</h3>
+            <p>Roti, vegetables and a protein-rich food.</p>
+        </div>
+    </div>
+</section>
+
+<section id="tips">
+    <h2>Healthy Eating Tips</h2>
+
+    <ul>
+        <li>Eat a variety of fruits and vegetables.</li>
+        <li>Drink water regularly.</li>
+        <li>Include different nutritious foods in meals.</li>
+        <li>Maintain regular meal timings.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>©️ 2026 FreshBite | Student Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
